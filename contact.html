@@ -13,7 +13,7 @@
 <body>
     <!-- Adding Nav Bar -->
     <!-- As a heading -->
-    <nav class="navbar navbar-green bg-light">
+    <nav class="navbar bg-light text-dark">
         <a class="navbar-brand mb-1 h1">Seulki Lee</a>
 
         <!-- navs are right-aligned -->
@@ -32,9 +32,9 @@
     </nav>
     <!-- End Nav -->
 
-    <div class="continer">
+    <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-8">
                 <div class="form-group">
                     <label for="formGroupExampleInput">Name</label>
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
@@ -58,6 +58,15 @@
 
     <!-- Bootstrap JavaScript CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Adding media queries -->
+    <style>
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: lightblue;
+            }
+        }
+    </style>
 </body>
 
 </html>
