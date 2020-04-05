@@ -2,11 +2,11 @@
 
 ## Description
 
-This page is about Seulki Lee.
+This page is Seulki Lee's Biography.
 
 ## Content
 
-This page provides
+This page provides the following contents. 
 
 1. About
 1. Contact 
